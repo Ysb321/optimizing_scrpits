@@ -1,5 +1,5 @@
 @echo off
-:: 🚀 Make Windows 11 Animations Faster (or Disable)
+:: 🚀 Make Windows 11 Animations Faster (or Disable) (By Yashraj)
 
 :: Apply Visual Effects setting
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects" /v VisualFXSetting /t REG_DWORD /d 2 /f

@@ -10,13 +10,11 @@ color a
 net session >nul 2>&1
 if %errorLevel% neq 0 (
     :: Display message if not running with administrative privileges
-    echo +---------------------------+
-    echo *    WinClearCache Tool     +
-    echo +---------------------------+
+    echo +--------------------------------------+
+    echo *    WinClearCache Tool By Yashraj     +
+    echo +--------------------------------------+
     echo.
-    echo                Author  : Naresh
-    echo                Github  : https://github.com/theNareshofficial
-    echo                Website : http://thenareshofficial.free.nf/
+    echo            Author  : Yashraj
     echo.
     echo Hello %USERNAME%
     echo.
@@ -24,20 +22,19 @@ if %errorLevel% neq 0 (
     echo + [!] Note!!!                                                 +    
     echo +  This script is not running with administrative privileges. + 
     echo +  Please run this script as an administrator.                +
-    echo +                                              - By Naresh    +
+    echo +                                              - By Yashraj   +
     echo +-------------------------------------------------------------+
     echo.
     pause
     exit /b
 ) else (
     :: Display message if running with administrative privileges
-    echo +---------------------------+
-    echo *    WinClearCache Tool     +
-    echo +---------------------------+
+    echo +--------------------------------------+
+    echo *    WinClearCache Tool By Yashraj     +
+    echo +--------------------------------------+
     echo.
-    echo                Author  : Naresh
-    echo                Github  : https://github.com/theNareshofficial
-    echo                Website : http://thenareshofficial.free.nf/
+    echo            Author  : Yashraj
+    echo.
     echo.
     echo Hello %USERNAME%
     echo.
