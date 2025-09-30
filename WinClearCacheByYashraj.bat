@@ -14,7 +14,7 @@ if %errorLevel% neq 0 (
     echo *    WinClearCache Tool By Yashraj     +
     echo +--------------------------------------+
     echo.
-    echo            Author  : Yashraj
+    echo           Author  : Yashraj
     echo.
     echo Hello %USERNAME%
     echo.
